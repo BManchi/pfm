@@ -36,7 +36,7 @@ mastodon_link                             :
 
 
 # Feature List                            Edit, add or remove features to be presented.
-  features:          
+features:          
     - title: Simple & Intuitive
       description: No complicated setup. Start tracking your finances in seconds with a clean, distraction-free interface designed for everyday use.
       fontawesome_icon_name: wand-magic-sparkles
