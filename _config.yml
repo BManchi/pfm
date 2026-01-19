@@ -36,7 +36,19 @@ mastodon_link                             :
 
 
 # Feature List                            Edit, add or remove features to be presented.
-  features:                      
+  features:          
+    - title: Simple & Intuitive
+      description: No complicated setup. Start tracking your finances in seconds with a clean, distraction-free interface designed for everyday use.
+      fontawesome_icon_name: wand-magic-sparkles
+
+    - title: Privacy First
+      description: Your financial data stays on your device. No cloud accounts required, no data harvesting - complete control over your information.
+      fontawesome_icon_name: shield-halved
+
+    - title: Completely Free
+      description: All features available at no cost. No premium tiers, no ads, no hidden fees - just a powerful finance tool for everyone.
+      fontawesome_icon_name: gift
+
     - title: Track Income & Expenses                                                                                                                                                                               
       description: Effortlessly log your daily income and expenses with customizable categories, notes, and dates. Stay on top of every transaction.    
       fontawesome_icon_name: money-bill-transfer                                                                                                                                                                 
@@ -60,20 +72,6 @@ mastodon_link                             :
     - title: Cross-Platform Sync
       description: Access your finances anywhere. Available on Android, iOS, Desktop, and Web with a consistent experience across all devices.
       fontawesome_icon_name: mobile-screen
-
-  value_proposition:
-    - title: Simple & Intuitive
-      description: No complicated setup. Start tracking your finances in seconds with a clean, distraction-free interface designed for everyday use.
-      fontawesome_icon_name: wand-magic-sparkles
-
-    - title: Privacy First
-      description: Your financial data stays on your device. No cloud accounts required, no data harvesting - complete control over your information.
-      fontawesome_icon_name: shield-halved
-
-    - title: Completely Free
-      description: All features available at no cost. No premium tiers, no ads, no hidden fees - just a powerful finance tool for everyone.
-      fontawesome_icon_name: gift
-
 
 
 
