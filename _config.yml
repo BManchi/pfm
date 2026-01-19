@@ -1,8 +1,8 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Personal Finance Manager                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -13,70 +13,67 @@ presskit_download_link                    : https://emilbaehr.com               
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Financial clarity for variable income workers
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
+your_name                                 : Bruno                                
+your_link                                 : https://bmanchi.github.io                     
+your_city                                 : Buenos Aires                                
+email_address                             : b.mmanchinelli@gmail.com
+linkedin_username                         : bmanchi                                          
+linkedin_company                          : bankuish                                          
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : bmanchi
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             : 
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+  features:                      
+    - title: Track Income & Expenses                                                                                                                                                                               
+      description: Effortlessly log your daily income and expenses with customizable categories, notes, and dates. Stay on top of every transaction.    
+      fontawesome_icon_name: money-bill-transfer                                                                                                                                                                 
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+    - title: Income Source Management
+      description: Create and organize your income sources with custom colors. Know exactly where your money comes from at a glance.
+      fontawesome_icon_name: hand-holding-dollar
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+    - title: Monthly Dashboard
+      description: View your financial health with a clear monthly overview. See your balance, income vs expenses breakdown, and spending patterns.
+      fontawesome_icon_name: chart-pie
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+    - title: Multi-Asset Tracking
+      description: Manage multiple accounts and assets in one place. Track cash, bank accounts, and more with real-time balance updates.
+      fontawesome_icon_name: wallet
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+    - title: Category Insights
+      description: Understand your spending habits with expense categories. Visualize where your money goes with percentage breakdowns.
+      fontawesome_icon_name: tags
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    - title: Cross-Platform Sync
+      description: Access your finances anywhere. Available on Android, iOS, Desktop, and Web with a consistent experience across all devices.
+      fontawesome_icon_name: mobile-screen
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  value_proposition:
+    - title: Simple & Intuitive
+      description: No complicated setup. Start tracking your finances in seconds with a clean, distraction-free interface designed for everyday use.
+      fontawesome_icon_name: wand-magic-sparkles
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+    - title: Privacy First
+      description: Your financial data stays on your device. No cloud accounts required, no data harvesting - complete control over your information.
+      fontawesome_icon_name: shield-halved
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+    - title: Completely Free
+      description: All features available at no cost. No premium tiers, no ads, no hidden fees - just a powerful finance tool for everyone.
+      fontawesome_icon_name: gift
+
 
 
 
